@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[HomePage is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Newly Created Sales Order  is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[validLoginis pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="71513" started-at="2019-11-12T18:23:07 IST" finished-at="2019-11-12T18:24:18 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="71513" started-at="2019-11-12T18:23:07 IST" finished-at="2019-11-12T18:24:18 IST">
+      <class name="com.vtiger.testpom.TestLogin">
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:com.vtiger.testpom.TestLogin@47ef968d]" name="beforeM" is-config="true" duration-ms="14271" started-at="2019-11-12T18:23:07 IST" finished-at="2019-11-12T18:23:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.vtiger.testpom.TestLogin@47ef968d]" name="validLogin" duration-ms="56261" started-at="2019-11-12T18:23:21 IST" finished-at="2019-11-12T18:24:17 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[HomePage is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Newly Created Sales Order  is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:com.vtiger.testpom.TestLogin@47ef968d]" name="afterM" is-config="true" duration-ms="900" started-at="2019-11-12T18:24:17 IST" finished-at="2019-11-12T18:24:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=TestLogin.validLogin()[pri:0, instance:com.vtiger.testpom.TestLogin@47ef968d] output=HomePage is Displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[validLoginis pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+      </class> <!-- com.vtiger.testpom.TestLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
